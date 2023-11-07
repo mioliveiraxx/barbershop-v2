@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+.brand img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.menu li a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+
+.menu li a:hover {
+    background-color: #4d4d4d;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: all .5s ease;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-orange {
+    background-color: #e03517;
+    border: 2px solid #e03517;
+    color: white;
+}
+.button-orange:hover {
+    background-color: black;
+    color: #e03517;
+}
+.background {
+    background-image: url('img/barbershopbg.jpg');
+    background-size: cover;
+    height: calc(100vh - 211.48px);
+    background-position: bottom;
+}
+.hero {
+    position: absolute;
+    background-color: #000000d8;
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    padding: 30px;
+}
+
+.hero h1 {
+    color: #e03517;
+}
+
+.servicos {
+    background-color: #e03517 ;
+    color: white;
+    padding: 20px 0px;
+}
+.servicos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.grid div {
+    background-color: #ec9860d8 ;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
